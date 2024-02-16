@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "tsc && vite build",
+    "version-bump": "npm version patch",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

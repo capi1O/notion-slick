@@ -13,6 +13,7 @@ This Chrome Extension adds several enhancements to Notion:
 - `dev`: will build to `dist` dir with live reload. In `chrome://extensions/` you can then click "load unpacked" and select the `dist` dir.
 - `build`: build for production.
 - `lint`: lint all (typescript) source files.
+- `version-bump`: increase package.json version (used in manifest.json), also automatically creates a git tag with the version number.
 
 
 # Structure
