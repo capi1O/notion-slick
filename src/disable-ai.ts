@@ -33,12 +33,10 @@ const handleSpacePress = (event: KeyboardEvent) => {
 const toggleCSS = (shouldActivateCSS: boolean) => {
 	const styleId = 'notion-slick-disable-ai-placeholder.css';
 	let styleElement = document.getElementById(styleId);
-	console.log('toggleCSS', shouldActivateCSS);
 
 	if (shouldActivateCSS) {
 		// create <style /> if not already in DOM (first call)
 		if (!styleElement) {
-			console.log('adding style to DOM');
 			styleElement = document.createElement('style');
 			styleElement.id = styleId;
 			document.head.appendChild(styleElement);
