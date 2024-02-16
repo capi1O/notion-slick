@@ -7,6 +7,7 @@
     "dev": "vite dev",
     "build": "tsc && vite build",
     "version-bump": "npm version patch",
+    "release": "tsx scripts/release.ts",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.23",
+    "@types/archiver": "^6.0.2",
     "@types/chrome": "^0.0.260",
     "@types/lodash.debounce": "^4.0.9",
     "@types/react": "^18.2.55",
@@ -29,9 +31,11 @@
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitejs/plugin-react": "^4.2.1",
+    "archiver": "^6.0.1",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "tsx": "^4.7.1",
     "typescript": "^5.2.2",
     "vite": "^5.1.0"
   }
