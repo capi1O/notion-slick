@@ -5,11 +5,15 @@ This Chrome Extension adds several enhancements to Notion:
 - Q&A button hidden
 - AI on space press (beginning of line) disabled
 
-# Stack
- 
-React + TypeScript + Vite, made from `npm create vite@latest --template react-ts`.
 
-> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Commands
+
+`npm run COMMAND`
+
+- `dev`: will build to `dist` dir with live reload. In `chrome://extensions/` you can then click "load unpacked" and select the `dist` dir.
+- `build`: build for production.
+- `lint`: lint all (typescript) source files.
+
 
 # Structure
 
@@ -27,7 +31,15 @@ Both file are referenced in manifest.json which is read by [@crxjs/vite-plugin](
 - `disable-ai.ts` => loaded dynamically by `disable-ai.ts-loader.js`
 - `background.js` => loaded dynamically by `service-worker-loader.js`
 
-# HMR / Fast Refresh
+# Stack
+ 
+React + TypeScript + Vite, made from `npm create vite@latest --template react-ts`.
+
+> This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+ESLint is used for code linting.
+
+### HMR / Fast Refresh
 
 This setup uses [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) which uses [Babel](https://babeljs.io/) for Fast Refresh. ~~Another option is to use [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) which uses [SWC](https://swc.rs/) instead~~.
 
@@ -41,7 +53,7 @@ https://github.com/crxjs/chrome-extension-tools/issues/835
 It's not possible to use [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) because it's not compatible with this vite plugin.
 
 
-## ESLint configuration
+### ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
