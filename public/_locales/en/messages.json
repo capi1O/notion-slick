@@ -1,6 +1,6 @@
 {
 	"extensionDescription": {
-		 "message": "Notion Slick enhances your Notion experience by seamlessly integrating a dynamic table of contents in the sidebar for easy navigation, removing the Q&A button for a cleaner interface, and disabling the AI popup on space press, allowing for uninterrupted typing."
+		 "message": "Adds a table of contents in the sidebar, removes the Q&A button for a cleaner interface, disables the AI popup on space press."
 	},
 	"extensionName": {
 	 "message": "Notion Slick"
