@@ -5,9 +5,9 @@
 # Notion-slick
 
 Chrome Extension that adds the following features for [Notion](https://www.notion.so/):
-- Table of Contents in Sidebar
-- Q&A button hidden
-- AI on space press (beginning of line) disabled
+- 📋 Table of Contents in Sidebar
+- 🚫 Q&A button hidden
+- ⌨️ AI on space press (beginning of line) disabled
 
 Each feature can be enabled/disabled in the extension settings (accessible by clicking the extension icon).
 
