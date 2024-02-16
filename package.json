@@ -1,7 +1,9 @@
 {
   "name": "notion-slick",
-  "private": true,
   "version": "1.2.6",
+  "author": "capi1O",
+  "homepage": "https://github.com/capi1O/notion-slick#readme",
+  "bugs": "https://github.com/capi1O/notion-slick/issues",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
@@ -39,5 +41,6 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.0",
     "vite-tsconfig-paths": "^4.3.1"
-  }
+  },
+  "license": "MIT"
 }
