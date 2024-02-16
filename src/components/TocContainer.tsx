@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
-import { useHeadingItems } from '../hooks/headings';
-import { useLocalStorageValue } from '../hooks/local-storage';
-import { ENABLE_TOC_SETTING, TOC_STATE } from '../constants/strings';
-import { CONTAINER_PADDING_LEFT } from '../constants/layout';
-import TocHeadings from './TocHeadings';
-import TocHeader from './TocHeader';
+import { useHeadingItems } from 'src/hooks/headings';
+import { useLocalStorageValue } from 'src/hooks/local-storage';
+import { ENABLE_TOC_SETTING, TOC_STATE } from 'src/constants/strings';
+import { CONTAINER_PADDING_LEFT } from 'src/constants/layout';
+import TocHeadings from 'src/components/TocHeadings';
+import TocHeader from 'src/components/TocHeader';
 import type { FC } from 'react';
-import type { Theme } from '../providers/theme';
+import type { Theme } from 'src/providers/theme';
 
 interface TocHeadingsWrapperProps {
 	tocHeadingsRef: React.RefObject<HTMLDivElement>;

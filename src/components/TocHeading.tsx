@@ -1,14 +1,14 @@
 import React from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
-import { scrollToBlock } from '../helpers/scroll';
+import { scrollToBlock } from 'src/helpers/scroll';
 import {
 	HEADING_INDICATOR_WIDTH,
 	HEADING_FONT_SIZE,
 	HEADING_LEFT_PADDING,
 	ARROW_WIDTH,
-} from '../constants/layout';
+} from 'src/constants/layout';
 import type { FC } from 'react';
-import type { Theme } from '../providers/theme';
+import type { Theme } from 'src/providers/theme';
 
 interface StyleProps {
 	theme: Theme;

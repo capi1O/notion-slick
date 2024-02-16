@@ -1,9 +1,9 @@
 import React from 'react';
 // import { useDebounceCallback } from 'usehooks-ts';
 import debounce from 'lodash.debounce';
-import { usePageChangeEffect } from './page-change';
-import { getDomElementOrThrow, getDomElementAsync } from '../helpers/dom';
-import { updatedHeadingItemsWithCorrectIsFocus } from '../helpers/scroll';
+import { usePageChangeEffect } from 'src/hooks/page-change';
+import { getDomElementOrThrow, getDomElementAsync } from 'src/helpers/dom';
+import { updatedHeadingItemsWithCorrectIsFocus } from 'src/helpers/scroll';
 import {
 	NOTION_SCROLLER_SELECTOR,
 	NOTION_BLOCK_ID_ATTRIBUTE,
@@ -11,7 +11,7 @@ import {
 	NOTION_HEADING_1_CLASS,
 	NOTION_HEADING_2_CLASS,
 	NOTION_HEADING_3_CLASS,
-} from '../constants/selectors';
+} from 'src/constants/selectors';
 export interface HeadingItem {
 	blockId: string,
 	text: string,

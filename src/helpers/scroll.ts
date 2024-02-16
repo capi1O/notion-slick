@@ -1,7 +1,7 @@
-import { getDomElementOrThrow } from './dom';
-import { HEADER_Y_OFFSET } from '../constants/layout';
-import { NOTION_SCROLLER_SELECTOR, NOTION_BLOCK_ID_ATTRIBUTE } from '../constants/selectors';
-import type { HeadingItem } from '../hooks/headings';
+import { getDomElementOrThrow } from 'src/helpers/dom';
+import { HEADER_Y_OFFSET } from 'src/constants/layout';
+import { NOTION_SCROLLER_SELECTOR, NOTION_BLOCK_ID_ATTRIBUTE } from 'src/constants/selectors';
+import type { HeadingItem } from 'src/hooks/headings';
 
 // duplicate in hooks/headings.js
 const getNotionFrameElementOrThrow: () => HTMLElement = () =>

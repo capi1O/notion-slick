@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { readLocalStorageValue, writeLocalStorageValue } from '../helpers/local-storage';
+import { readLocalStorageValue, writeLocalStorageValue } from 'src/helpers/local-storage';
 import type { Dispatch, SetStateAction } from 'react';
 
 type ULSVRT<T> = [T | undefined, Dispatch<SetStateAction<T | undefined>>];

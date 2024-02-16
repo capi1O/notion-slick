@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { createUseStyles } from 'react-jss';
-import { ENABLE_TOC_SETTING, HIDE_Q_A_BUTTON_SETTING, DISABLE_AI_ON_SPACE_PRESS_SETTING } from '../constants/strings';
-import FlagSetting from './FlagSetting';
+import { ENABLE_TOC_SETTING, HIDE_Q_A_BUTTON_SETTING, DISABLE_AI_ON_SPACE_PRESS_SETTING } from 'src/constants/strings';
+import FlagSetting from 'src/components/FlagSetting';
 // import type { FC } from 'react';
 
 interface StyleProps {

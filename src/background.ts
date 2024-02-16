@@ -1,4 +1,4 @@
-import { PAGE_CHANGED_EVENT } from './constants/strings';
+import { PAGE_CHANGED_EVENT } from 'src/constants/strings';
 
 // Listen for history navigation state to detect page changes
 chrome.webNavigation.onHistoryStateUpdated.addListener(

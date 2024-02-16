@@ -1,7 +1,7 @@
 import React from 'react';
-import messages, { supportedLocales } from '../constants/messages';
+import messages, { supportedLocales } from 'src/constants/messages';
 import type { ReactElement } from 'react';
-import type { SupportedLocale } from '../constants/messages';
+import type { SupportedLocale } from 'src/constants/messages';
 
 // Function to recursively replace strings in React elements and their children
 const replaceStringInElement = (element: ReactElement, searchValue: RegExp, replaceValue: string):ReactElement => React.cloneElement(

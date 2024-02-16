@@ -1,10 +1,10 @@
 import React from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
-import TocHeading from './TocHeading';
-import { useLocalizedText } from '../hooks/translations';
-import { SCROLL_BAR_WIDTH } from '../constants/layout';
-import type { HeadingItem } from '../hooks/headings';
-import type { Theme } from '../providers/theme';
+import TocHeading from 'src/components/TocHeading';
+import { useLocalizedText } from 'src/hooks/translations';
+import { SCROLL_BAR_WIDTH } from 'src/constants/layout';
+import type { HeadingItem } from 'src/hooks/headings';
+import type { Theme } from 'src/providers/theme';
 
 
 const shouldCustomizeScrollbar = false; // @TODO: make it a setting

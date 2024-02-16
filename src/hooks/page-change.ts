@@ -1,5 +1,5 @@
 import React from 'react';
-import { PAGE_CHANGED_EVENT } from '../constants/strings';
+import { PAGE_CHANGED_EVENT } from 'src/constants/strings';
 
 import type { EffectCallback } from 'react';
 

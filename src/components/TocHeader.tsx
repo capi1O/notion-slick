@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import { createUseStyles, useTheme } from 'react-jss';
 import { useWindowSize } from 'usehooks-ts';
-import { useLocalizedText } from '../hooks/translations';
-import { useSizeObserver } from '../hooks/resize';
-import { updateTocHeadingMaxHeight } from '../helpers/size';
-import Arrow from './Arrow';
+import { useLocalizedText } from 'src/hooks/translations';
+import { useSizeObserver } from 'src/hooks/resize';
+import { updateTocHeadingMaxHeight } from 'src/helpers/size';
+import Arrow from 'src/components/Arrow';
 import type { FC } from 'react';
-import type { Theme } from '../providers/theme';
+import type { Theme } from 'src/providers/theme';
 
 
 interface StyleProps {

@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client';
-import { getDomElementParentAsync } from './helpers/dom.js';
-import { NOTION_APP_ID, NOTION_SIDEBAR_CONTENT_SELECTOR, NOTION_SLICK_TOC_CLASS } from './constants/selectors.js';
-import ThemeProvider from './providers/theme';
-import TocContainer from './components/TocContainer';
+import { getDomElementParentAsync } from 'src/helpers/dom';
+import { NOTION_APP_ID, NOTION_SIDEBAR_CONTENT_SELECTOR, NOTION_SLICK_TOC_CLASS } from 'src/constants/selectors.js';
+import ThemeProvider from 'src/providers/theme';
+import TocContainer from 'src/components/TocContainer';
 
 
 // @TODO: add a setting to place ToC differently (ex before .notion-scroller)

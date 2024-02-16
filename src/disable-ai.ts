@@ -1,7 +1,7 @@
-import { getDomElementAsync } from './helpers/dom';
-import { insertTextAtCursor } from './helpers/keyboard';
-import { watchLocalStorageValueAndCall } from './helpers/local-storage';
-import { HIDE_Q_A_BUTTON_SETTING, DISABLE_AI_ON_SPACE_PRESS_SETTING } from './constants/strings';
+import { getDomElementAsync } from 'src/helpers/dom';
+import { insertTextAtCursor } from 'src/helpers/keyboard';
+import { watchLocalStorageValueAndCall } from 'src/helpers/local-storage';
+import { HIDE_Q_A_BUTTON_SETTING, DISABLE_AI_ON_SPACE_PRESS_SETTING } from 'src/constants/strings';
 
 const grandGrandGrandParent = (element: Element) => element?.parentElement?.parentElement?.parentElement?.parentElement;
 

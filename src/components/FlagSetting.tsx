@@ -2,7 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
-import { useLocalStorageValue } from '../hooks/local-storage';
+import { useLocalStorageValue } from 'src/hooks/local-storage';
 import type { FC } from 'react';
 
 interface StyleProps {

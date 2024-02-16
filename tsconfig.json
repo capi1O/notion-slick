@@ -15,6 +15,10 @@
 		"noEmit": true,
 		"jsx": "react-jsx",
 
+		/* paths mapping to avoid relative imports, mappings are relative to baseUrl */
+		"baseUrl": ".",
+		"paths": { "src/*": ["src/*"] },
+
 		/* Linting */
 		"strict": true,
 		"noUnusedLocals": true,

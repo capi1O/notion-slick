@@ -1,7 +1,7 @@
 // @TODO: move file somewhere else
 import React from 'react';
 import { ThemeProvider } from 'react-jss';
-import { useNotionTheme } from '../hooks/notion-theme';
+import { useNotionTheme } from 'src/hooks/notion-theme';
 import type { FC } from 'react';
 import type { DefaultTheme } from 'react-jss';
 

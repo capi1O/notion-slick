@@ -2,7 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'; // same icon Notion uses
-import { ARROW_WIDTH } from '../constants/layout';
+import { ARROW_WIDTH } from 'src/constants/layout';
 import type { FC } from 'react';
 
 type Direction = 'up' | 'down' | 'right' | 'left';

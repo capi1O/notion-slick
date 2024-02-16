@@ -1,6 +1,6 @@
 import React from 'react';
-import { getDomElementAsync } from '../helpers/dom';
-import { NOTION_LIGHT_THEME_CLASS, NOTION_DARK_THEME_CLASS } from '../constants/selectors';
+import { getDomElementAsync } from 'src/helpers/dom';
+import { NOTION_LIGHT_THEME_CLASS, NOTION_DARK_THEME_CLASS } from 'src/constants/selectors';
 
 
 export const useNotionTheme = () => {
