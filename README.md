@@ -1,12 +1,19 @@
+<p align="center">
+	<img src="logo.svg" alt="notion-slick-logo" width="128"/>
+</p>
+
 # Notion-slick
 
-This Chrome Extension adds several enhancements to Notion:
+Chrome Extension that adds the following features for [Notion](https://www.notion.so/):
 - Table of Contents in Sidebar
 - Q&A button hidden
 - AI on space press (beginning of line) disabled
 
+Each feature can be enabled/disabled in the extension settings (accessible by clicking the extension icon).
 
-# Commands
+# Development
+
+## Commands
 
 `npm run COMMAND`
 
@@ -16,7 +23,7 @@ This Chrome Extension adds several enhancements to Notion:
 - `version-bump`: increase package.json version (used in manifest.json), also automatically create a git tag with the version number.
 - `release`: compress output from `dist` dir into zip file (named with version number) and move it to `releases` dir.
 
-# Structure
+## Structure
 
 ### vite build
 
@@ -32,7 +39,7 @@ Both file are referenced in manifest.json which is read by [@crxjs/vite-plugin](
 - `disable-ai.ts` => loaded dynamically by `disable-ai.ts-loader.js`
 - `background.js` => loaded dynamically by `service-worker-loader.js`
 
-# Stack
+## Stack
  
 React + TypeScript + Vite, made from `npm create vite@latest --template react-ts`.
 
@@ -54,7 +61,7 @@ https://github.com/crxjs/chrome-extension-tools/issues/835
 It's not possible to use [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) because it's not compatible with this vite plugin.
 
 
-### ESLint configuration
+## ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
