@@ -42,7 +42,6 @@ export default defineManifest(async () => ({
 		default_popup: 'src/popup.html',
 		default_title: '__MSG_extensionName__ settings',
 	},
-	key: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuiMgClMKDeqQlrr5LenYCszVh7NWkpMtEDTL0DMn53lvCei/+9rbIoBxyO9zM9pnMj4sOOD37dsuWdtgAAi42b3j+zuowYfegfSXHdxOUe8A1sK/S/sYZPiQqqMnGvehzzfou1SMAptB9b7u3BvwK8RuZolO8c6Z+KVwYS4vq+guOvdfNlms4Z1HQfdK1h9aktbBkXeTBt34qH0+3iSjC8rHAHEMRLxH0fS6O11CroXcEMbr2RFPpuT2QY8zssaIs5ZlEXFYiPf31SyFTBJENGSQev7UP8YtLMtzhmB6aoWPiFKnf5s0E8zGcu2KszNezzKKv7dGm/ZQl9vz7AVL2QIDAQAB',
 	permissions: [ 'webNavigation', 'storage', 'tabs' ],
 	update_url: 'https://clients2.google.com/service/update2/crx',
 }));
