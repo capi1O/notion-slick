@@ -2,7 +2,7 @@
 	<img src="logo.svg" alt="notion-slick-logo" width="128"/>
 </p>
 
-# Notion-slick
+# Notion Slick
 
 Chrome Extension that adds the following features for [Notion](https://www.notion.so/):
 - 📋 Table of Contents in Sidebar
