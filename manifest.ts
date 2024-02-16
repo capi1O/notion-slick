@@ -38,7 +38,7 @@ export default defineManifest(async () => ({
 		128: 'images/icon-128.png',
 	},
 	action: {
-		default_icon: 'logo.svg',
+		default_icon: 'logo.png',
 		default_popup: 'src/popup.html',
 		default_title: '__MSG_extensionName__ settings',
 	},
